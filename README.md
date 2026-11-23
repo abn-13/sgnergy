@@ -2,17 +2,25 @@
 
 SGnergy finds after-hours and equipment energy waste in Singapore offices from 30 days of hourly smart-meter data. QwenWork agents handle enquiries, analysis, validated reports, payment links and monthly monitoring, and the founder approves every output before it leaves.
 
-- **Demo video:** YOUR_YOUTUBE_LINK
+- **Demo video:** https://youtu.be/eyxUAm86jrc
 - **Live site (built on Hashmeta AI):** https://sgnergy.geo.hashmeta.tech
 - **Sample report (synthetic data):** [`sample-report/September-2026-SGnergy-demo.pdf`](sample-report/September-2026-SGnergy-demo.pdf)
 
 Built for the QwenWork x Hashmeta AI OPC Hackathon 2026 (Track 1: Business Operations & Automation).
 
-![Sample report, page 1](sample-report/page1.png)
+![SGnergy homepage on Hashmeta AI](docs/images/homepage-hero.jpg)
 
 ## The problem
 
 Singapore offices often pay to light and cool empty buildings at night and on weekends, and chiller plants drift out of efficiency without anyone noticing. Under Singapore's Mandatory Energy Improvement regime, large offices with high energy use intensity (EUI) can be required to cut consumption, and owners often find out late. Most buildings already collect the hourly meter data needed to catch this early.
+
+## The website
+
+Built and published on Hashmeta AI CMS by QwenWork: a scroll-driven 3D office at 2am, the Ask SGnergy chatbot, a free EUI check form, and a Singapore office energy map.
+
+| The empty office at night | What the report catches |
+|---|---|
+| ![Office interior at night](docs/images/homepage-office-at-night.jpg) | ![Night waste, Saturday load and chiller drift cards](docs/images/homepage-clear-signals.jpg) |
 
 ## How it works
 
@@ -56,6 +64,12 @@ Two synthetic office buildings with planted faults and separate answer keys:
 | Night-waste cost check | S$519 per affected weekday night (`eval/test_nightly_cost.py`) |
 
 These come from separate synthetic runs, not one combined evaluation.
+
+## Sample report
+
+![Sample report, page 1](sample-report/page1.png)
+
+Full PDF: [`sample-report/September-2026-SGnergy-demo.pdf`](sample-report/September-2026-SGnergy-demo.pdf) (synthetic data).
 
 ## Repository layout
 
