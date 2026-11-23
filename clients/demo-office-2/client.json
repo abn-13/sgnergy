@@ -1,0 +1,8 @@
+{
+ "client_name":"Demo Office Two (fictional)",
+ "building_type":"Office",
+ "gfa_m2":9000,
+ "contact_email":"demo-office-2@example.invalid",
+ "disclosure":"Disclosed synthetic demo data - fictional building, not a real client",
+ "subscription_sgd_per_month":500
+}

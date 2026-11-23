@@ -1,0 +1,7 @@
+{
+"disclosed_synthetic":true,"seed":42,"gfa_m2":10000.0,"days":30,"start":"2026-10-01","scenario":"fixed",
+"calibration":{"plug_load_base_kw":118.64,"target_eui":195.0},
+"true_totals":{"month_kwh":112982.8,"daily_avg_kwh":3766.1,"annualized_kwh_estimated":1374624.0,"eui_kwh_m2_yr":137.46},
+"daily_kwrt_series":[0.6607,0.6596,null,null,0.658,0.661,0.6606,0.6591,0.6598,null,null,0.6609,0.6605,0.6577,0.6605,0.6598,null,null,0.6591,0.6594,0.66,0.662,0.6612,null,null,0.6597,0.6591,0.6603,0.6564,0.6606],
+"kwrt_crosses_0.80_day":null,"fixed_scenario":{"eff_kwrt_constant":0.66,"faults_removed":["A","B","C"]}
+}

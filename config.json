@@ -1,0 +1,12 @@
+{
+  "benchmarks": {"office_eui_median_kwh_m2_yr":164,"office_eui_p75_kwh_m2_yr":205,"label":"BENCHMARK","source":"Inherited demo constants; verify source and edition before real use"},
+  "regulatory": {"mei_office_threshold_kwh_m2_yr":200,"chiller_plant_efficiency_limit_kwrt_under_500RT":0.8,"label":"REGULATORY","source":"Inherited BCA MEI / PEA Code 3.0 demo reference; applicability not established"},
+  "tariff":{"sgd_per_kwh_before_gst":0.29,"range":[0.25,0.32],"label":"ASSUMPTION","source":"Demo assumption, not a current tariff assertion"},
+  "good_plant_efficiency_kwrt":0.7,
+  "heuristics":{"night_day_ratio_flag":0.5,"weekend_vs_weekday_flag":0.6,"night_window":["22:00","06:00"],"office_hours":["08:00","19:00"],"chiller_low_load_filter_pct_of_peak":0.3,"label":"HEURISTIC / ASSUMPTION"},
+  "pricing":{"free_eui_check_sgd":0,"health_check_one_off_sgd":1500,"monthly_monitoring_sgd_per_building":500,"label":"ASSUMPTION"},
+  "fix_costs_sgd":{"F1_bms_schedule_correction":1500,"F2_chiller_plant_service":8000,"label":"ASSUMPTION","note":"Placeholder quotes only"},
+  "labels_allowed":["MEASURED","ESTIMATED","BENCHMARK","REGULATORY","HEURISTIC","ASSUMPTION","PUBLIC-DATA"],
+  "forbidden_words":["guaranteed","compliant","certified","confirmed fault","fault confirmed"],
+  "engineer_flag_text":"Needs review by a PE (Mechanical) or BCA-registered Energy Auditor"
+}

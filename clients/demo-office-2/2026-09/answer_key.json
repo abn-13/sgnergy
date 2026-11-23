@@ -1,0 +1,10 @@
+{
+"disclosed_synthetic":true,"seed":207,"gfa_m2":9000.0,"days":30,"start":"2026-09-01","scenario":"faults",
+"calibration":{"plug_load_base_kw":51.8,"target_eui":185.0},
+"true_totals":{"month_kwh":136849.3,"daily_avg_kwh":4561.6,"annualized_kwh_estimated":1665000.0,"eui_kwh_m2_yr":185.0},
+"daily_kwrt_series":[0.7002,0.7064,0.7112,0.7179,null,null,0.7361,0.7428,0.7515,0.7558,0.7642,null,null,0.7795,0.789,0.7941,0.8002,0.804,null,null,0.823,0.8308,0.8348,0.844,0.8516,null,null,0.871,0.8731,0.882],
+"kwrt_crosses_0.80_day":17,
+"faults":{"A_night_waste":{"start_day":15,"window":"19:00-06:00 weekdays from day 15","extra_kwh":29635.1},"B_weekend_waste":{"present":false,"extra_kwh":0.0,"pattern":"quiet Saturdays, no planted schedule fault"},"C_chiller_drift":{"eff_start_kwrt":0.7,"eff_end_kwrt":0.88,"extra_kwh":7432.0,"expected_crossing_day":17,"start_day":1}},
+"attribution_note":"total = base + A + B + C; A cooling priced at 0.70 kW/RT; B absent; C applies to all cooling. CSV rounding separately accounted for.",
+"decomposition":{"base_kwh_unrounded":99782.329269218,"A_kwh_unrounded":29635.09640178912,"B_kwh_unrounded":0.0,"C_kwh_unrounded":7432.004890524457,"total_kwh_unrounded":136849.43056153157,"csv_total_kwh":136849.31,"csv_rounding_delta_kwh":-0.12056153157027438,"baseline_csv_kwh":99782.34}
+}

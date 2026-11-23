@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "owner_email": "owner@example.invalid",
+  "principles": "Risk-tiered autonomy (AvePoint pattern): ALLOW = agent sends and logs; APPROVE = agent prepares a draft, owner releases; NEVER = blocked and reported even if asked. Every decision logged with rule id and reason.",
+  "rules": [
+    {"id": "E01", "decision": "NEVER", "condition": "content_level == regulated (personal data, NRIC, bank details)", "reason": "Regulated data never leaves the company"},
+    {"id": "E02", "decision": "APPROVE", "condition": "recipient not in client/owner allowlist", "reason": "New recipient requires owner confirmation"},
+    {"id": "E03", "decision": "APPROVE", "condition": "any discount or price below published pricing", "reason": "Published price is the floor; deviations are the owner's call"},
+    {"id": "E04", "decision": "APPROVE", "condition": "type in [report_delivery, invoice]", "reason": "Money claims to clients: founder approves before send"},
+    {"id": "E05", "decision": "APPROVE", "condition": "money_claims or regulatory_claims in any other message type", "reason": "Dollar/regulatory statements need founder review"},
+    {"id": "E06", "decision": "ALLOW", "condition": "type == question_reply AND kb_only == true", "reason": "Answers built only from approved knowledge base facts"},
+    {"id": "E07", "decision": "ALLOW", "condition": "type in [welcome, data_request, assistance] AND content_level in [public, internal]", "reason": "Routine logistics emails, reversible, templated"},
+    {"id": "E08", "decision": "APPROVE", "condition": "anything else", "reason": "Default deny: unknown message types wait for the owner"}
+  ],
+  "content_levels": ["public", "internal", "client-confidential", "regulated"],
+  "detection_hints": {
+    "regulated": ["NRIC pattern (letter+7digits+letter)", "bank account", "card number", "PayNow personal", "medical", "home address + person"],
+    "client-confidential": ["client name + figure", "contract", "NDA", "not public"],
+    "internal": ["invoice issued", "supplier", "plan", "reminder"],
+    "public": ["website copy", "price list", "approved case study", "marketing"]
+  }
+}

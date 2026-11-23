@@ -1,0 +1,227 @@
+{
+  "status": "numeric_pass_visual_review_pending",
+  "fallback": false,
+  "pdf": "<project>/sample-report-sept-polished/September-2026-SGnergy-demo.pdf",
+  "preview": "<project>/sample-report-sept-polished/September-2026-page1.png",
+  "size_bytes": 141579,
+  "sha256": "b673be704cf9be2d0966bff412348aadb8870950f19b0ea92af9ff57870b2ea5",
+  "pages": 3,
+  "validator_violations": [],
+  "checks": [
+    {
+      "id": "eui",
+      "csv_value": 195.0,
+      "pdf_value": 195.0,
+      "exact_match": true
+    },
+    {
+      "id": "annual_kwh",
+      "csv_value": 1950000.0,
+      "pdf_value": 1950000.0,
+      "exact_match": true
+    },
+    {
+      "id": "month_kwh",
+      "csv_value": 160274.0,
+      "pdf_value": 160274.0,
+      "exact_match": true
+    },
+    {
+      "id": "tariff",
+      "csv_value": 0.29,
+      "pdf_value": 0.29,
+      "exact_match": true
+    },
+    {
+      "id": "top3.0",
+      "csv_value": 107353.07,
+      "pdf_value": 107353.07,
+      "exact_match": true
+    },
+    {
+      "id": "top3.1",
+      "csv_value": 43891.34,
+      "pdf_value": 43891.34,
+      "exact_match": true
+    },
+    {
+      "id": "top3.2",
+      "csv_value": 34757.61,
+      "pdf_value": 34757.61,
+      "exact_match": true
+    },
+    {
+      "id": "total_savings_sgd_year",
+      "csv_value": 186002.02,
+      "pdf_value": 186002.02,
+      "exact_match": true
+    },
+    {
+      "id": "night_waste.ratio_before",
+      "csv_value": 0.16,
+      "pdf_value": 0.16,
+      "exact_match": true
+    },
+    {
+      "id": "night_waste.ratio_after",
+      "csv_value": 0.57,
+      "pdf_value": 0.57,
+      "exact_match": true
+    },
+    {
+      "id": "night_waste.excess_kwh",
+      "csv_value": 30426.0,
+      "pdf_value": 30426.0,
+      "exact_match": true
+    },
+    {
+      "id": "weekend_waste.excess_kwh",
+      "csv_value": 9851.0,
+      "pdf_value": 9851.0,
+      "exact_match": true
+    },
+    {
+      "id": "weekend_waste.sat_pct.5",
+      "csv_value": 74,
+      "pdf_value": 74,
+      "exact_match": true
+    },
+    {
+      "id": "weekend_waste.sat_pct.12",
+      "csv_value": 76,
+      "pdf_value": 76,
+      "exact_match": true
+    },
+    {
+      "id": "weekend_waste.sat_pct.19",
+      "csv_value": 78,
+      "pdf_value": 78,
+      "exact_match": true
+    },
+    {
+      "id": "weekend_waste.sat_pct.26",
+      "csv_value": 81,
+      "pdf_value": 81,
+      "exact_match": true
+    },
+    {
+      "id": "chiller_drift.kwrt_start",
+      "csv_value": 0.681,
+      "pdf_value": 0.681,
+      "exact_match": true
+    },
+    {
+      "id": "chiller_drift.kwrt_end",
+      "csv_value": 0.841,
+      "pdf_value": 0.841,
+      "exact_match": true
+    },
+    {
+      "id": "chiller_drift.excess_kwh",
+      "csv_value": 7348.0,
+      "pdf_value": 7348.0,
+      "exact_match": true
+    },
+    {
+      "id": "F1.savings_sgd_year",
+      "csv_value": 142110.68,
+      "pdf_value": 142110.68,
+      "exact_match": true
+    },
+    {
+      "id": "F1.cost_sgd",
+      "csv_value": 1500,
+      "pdf_value": 1500,
+      "exact_match": true
+    },
+    {
+      "id": "F1.payback_years",
+      "csv_value": 0.01,
+      "pdf_value": 0.01,
+      "exact_match": true
+    },
+    {
+      "id": "F2.savings_sgd_year",
+      "csv_value": 43891.34,
+      "pdf_value": 43891.34,
+      "exact_match": true
+    },
+    {
+      "id": "F2.cost_sgd",
+      "csv_value": 8000,
+      "pdf_value": 8000,
+      "exact_match": true
+    },
+    {
+      "id": "F2.payback_years",
+      "csv_value": 0.18,
+      "pdf_value": 0.18,
+      "exact_match": true
+    }
+  ],
+  "original_hashes_before": {
+    "<project>/clients/offline-fix-sep-20261122/2026-09/report_content.json": "18b363c082ec75bd8f6289d8fd10823a8996aa3ebb8b40dc9686eb7c2e170c28",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/meter_data.csv": "b8960f4a90dec70e06ac6fd0ae8a078bc7ebdd3641e67374564246172e6538ea",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/results.json": "816386f13555f958b5998fa17a0bb4d6bf24722c7b80fad57a5207516a803791",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/action_log.jsonl": "64490de1ffb47b8a4222bd37b57a279c1d88707471123aba0f7789d3f63ddf1d",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/report.pdf": "989d1078053c3c6a6138fe8dbb62ad757632c3a778e89958b24afb94903438d0",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/charts/chart_load.png": "0de233cdea1796fa4ed4967f506ca86c5195be88a1333556307040ac11cb5d32",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/charts/chart_daily.png": "f55c81cbe5b16bca4351e488d16996acf766fea7f3f4f22ac6e6be8150a8c2a6",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/charts/chart_kwrt.png": "1085e9b4753a9d6729da753f1c80a32946f0997d732b3d3ec0b5d80017909a4e",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/visual-check/page_002.png": "9cb65b4d4436a7e86573c1adcab8805729a340365f9181ed999ecdfb9c15817e",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/visual-check/page_003.png": "cc74fc09a58bd1b344fdfdd9d1e03d2666302ab51a919f14bbd3fc60a1da703e",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/visual-check/page_001.png": "8c421a50c17b02bdf9f066d7d941c296a8575c1626e5b3dee3ce8134ad860004",
+    "<project>/clients/offline-fix-sep-20261122/client.json": "778080f9296f195162a8d2805b6f95d5773b36c2590a56d9e238b6a8c4358895",
+    "<project>/config.json": "fa2da84b28a847351cca6828366cb3b2022f24351d9d4d2fcb4d126bdd0b7dcf",
+    "<project>/pipeline/validate_report.py": "f66c6f36ca8541236729cc9217588aead348a0c05ec33cf0d6dc7c6d5f9ccea8",
+    "<project>/pipeline/intake.py": "172fb89de5636cc6faad2f787e1a1f99309b1c9733f53616bb857480c8f5eb23",
+    "<project>/pipeline/bca_research.py": "0a02f5149088f109d83be627ee7ea978498d93205d7f3c846d996b6a463dea59",
+    "<project>/pipeline/report_content.py": "f8e34f34c51cf6b417e6b15137731e1b9821fc594c0bfa8e1cb17b6bc7fedf55",
+    "<project>/pipeline/benchmark.py": "c8261a4a7ae48e723b373a584a2c42c7d8e402a0b80dc2461005088e6ff8ac28",
+    "<project>/pipeline/report_pdf.py": "5909654b21709217d1bac492dde839440db6c31133fc47a156cb4bf3f9f090b1",
+    "<project>/pipeline/proposal.py": "50a8f1459bea023c6cdac40aa089e6f7c4bf0da29fe82f0cfa29100691bd571b",
+    "<project>/pipeline/common.py": "c6c710b3b9f9186addefb4b8f91c6e9ef0fbeec41c9d1f81027d1192eef948f2",
+    "<project>/pipeline/make_report.py": "11820c5151763bdc6da15a5fda2e3cc9e609c92151da08e20408523ff60dd80f",
+    "<project>/pipeline/anomaly.py": "914c28e0f091edfc20122d59dee42dc1818adfd2b6dd4fde84082fe196b916d2",
+    "<project>/pipeline/email_policy.py": "71455b73bb12ac21d2ca8afb64f39c310653e17485af8de4761ca4dba2911da9",
+    "<project>/pipeline/inbox_triage.py": "1a3f47021b3ec7bb18fe569b466491e0e3cadd85cd799d772b014a5b4613b574",
+    "<project>/pipeline/run_audit.py": "2ac55b007737bcfcfa06b9235f61a00d7f4beda78da8527b3ed717a983ddf409",
+    "<project>/pipeline/invoice.py": "3c0fc888c19955c449012ab8c28bc346aba8bf6ace1f688c446833f259cd058b"
+  },
+  "original_hashes_after": {
+    "<project>/clients/offline-fix-sep-20261122/2026-09/report_content.json": "18b363c082ec75bd8f6289d8fd10823a8996aa3ebb8b40dc9686eb7c2e170c28",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/meter_data.csv": "b8960f4a90dec70e06ac6fd0ae8a078bc7ebdd3641e67374564246172e6538ea",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/results.json": "816386f13555f958b5998fa17a0bb4d6bf24722c7b80fad57a5207516a803791",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/action_log.jsonl": "64490de1ffb47b8a4222bd37b57a279c1d88707471123aba0f7789d3f63ddf1d",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/report.pdf": "989d1078053c3c6a6138fe8dbb62ad757632c3a778e89958b24afb94903438d0",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/charts/chart_load.png": "0de233cdea1796fa4ed4967f506ca86c5195be88a1333556307040ac11cb5d32",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/charts/chart_daily.png": "f55c81cbe5b16bca4351e488d16996acf766fea7f3f4f22ac6e6be8150a8c2a6",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/charts/chart_kwrt.png": "1085e9b4753a9d6729da753f1c80a32946f0997d732b3d3ec0b5d80017909a4e",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/visual-check/page_002.png": "9cb65b4d4436a7e86573c1adcab8805729a340365f9181ed999ecdfb9c15817e",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/visual-check/page_003.png": "cc74fc09a58bd1b344fdfdd9d1e03d2666302ab51a919f14bbd3fc60a1da703e",
+    "<project>/clients/offline-fix-sep-20261122/2026-09/visual-check/page_001.png": "8c421a50c17b02bdf9f066d7d941c296a8575c1626e5b3dee3ce8134ad860004",
+    "<project>/clients/offline-fix-sep-20261122/client.json": "778080f9296f195162a8d2805b6f95d5773b36c2590a56d9e238b6a8c4358895",
+    "<project>/config.json": "fa2da84b28a847351cca6828366cb3b2022f24351d9d4d2fcb4d126bdd0b7dcf",
+    "<project>/pipeline/validate_report.py": "f66c6f36ca8541236729cc9217588aead348a0c05ec33cf0d6dc7c6d5f9ccea8",
+    "<project>/pipeline/intake.py": "172fb89de5636cc6faad2f787e1a1f99309b1c9733f53616bb857480c8f5eb23",
+    "<project>/pipeline/bca_research.py": "0a02f5149088f109d83be627ee7ea978498d93205d7f3c846d996b6a463dea59",
+    "<project>/pipeline/report_content.py": "f8e34f34c51cf6b417e6b15137731e1b9821fc594c0bfa8e1cb17b6bc7fedf55",
+    "<project>/pipeline/benchmark.py": "c8261a4a7ae48e723b373a584a2c42c7d8e402a0b80dc2461005088e6ff8ac28",
+    "<project>/pipeline/report_pdf.py": "5909654b21709217d1bac492dde839440db6c31133fc47a156cb4bf3f9f090b1",
+    "<project>/pipeline/proposal.py": "50a8f1459bea023c6cdac40aa089e6f7c4bf0da29fe82f0cfa29100691bd571b",
+    "<project>/pipeline/common.py": "c6c710b3b9f9186addefb4b8f91c6e9ef0fbeec41c9d1f81027d1192eef948f2",
+    "<project>/pipeline/make_report.py": "11820c5151763bdc6da15a5fda2e3cc9e609c92151da08e20408523ff60dd80f",
+    "<project>/pipeline/anomaly.py": "914c28e0f091edfc20122d59dee42dc1818adfd2b6dd4fde84082fe196b916d2",
+    "<project>/pipeline/email_policy.py": "71455b73bb12ac21d2ca8afb64f39c310653e17485af8de4761ca4dba2911da9",
+    "<project>/pipeline/inbox_triage.py": "1a3f47021b3ec7bb18fe569b466491e0e3cadd85cd799d772b014a5b4613b574",
+    "<project>/pipeline/run_audit.py": "2ac55b007737bcfcfa06b9235f61a00d7f4beda78da8527b3ed717a983ddf409",
+    "<project>/pipeline/invoice.py": "3c0fc888c19955c449012ab8c28bc346aba8bf6ace1f688c446833f259cd058b"
+  },
+  "originals_unchanged": true,
+  "published": false,
+  "warnings": [
+    "Synthetic data; estimates are not measured savings or certification.",
+    "Professional review remains required.",
+    "Existing 25 source claims preserved; optional nightly allocation not added."
+  ]
+}

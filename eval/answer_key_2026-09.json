@@ -1,0 +1,11 @@
+{
+"disclosed_synthetic":true,"seed":42,"gfa_m2":10000.0,"days":30,"start":"2026-09-01","scenario":"faults",
+"calibration":{"plug_load_base_kw":118.64,"target_eui":195.0},
+"true_totals":{"month_kwh":160274.0,"daily_avg_kwh":5342.5,"annualized_kwh_estimated":1950000.0,"eui_kwh_m2_yr":195.0},
+"daily_kwrt_series":[0.6807,0.6851,0.6929,0.6957,0.7,null,0.7137,0.7177,0.7239,0.7306,0.7369,0.7417,null,0.7492,0.7579,0.7626,0.7657,0.7755,0.7782,null,0.7904,0.7983,0.8028,0.8066,0.811,0.8175,null,0.8293,0.83,0.8408],
+"kwrt_crosses_0.80_day":23,
+"faults":{"A_night_waste":{"start_day":8,"window":"19:00-06:00 weekdays (extended from plan's 02:00 so the min-load night/day ratio heuristic fires)","extra_kwh":29333.2,"expected_night_day_ratio_from_day8":"> 0.5"},
+"B_weekend_waste":{"start_day":1,"pattern":"Saturdays run weekday schedule","extra_kwh":9070.1,"expected_saturday_vs_weekday_pct":"~75-85% of faulted weekday average (flag > 60%)"},
+"C_chiller_drift":{"eff_start_kwrt":0.68,"eff_end_kwrt":0.84,"extra_kwh":7437.4,"expected_crossing_day":"~22"}},
+"attribution_note":"total = base + A + B + C exactly; A/B extra cooling priced at baseline 0.68 kW/RT; drift C applies to all cooling load."
+}

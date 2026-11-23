@@ -1,0 +1,10 @@
+{
+ "provenance":"Sanitized selected evidence from original run_summary.json; historical, not rerun in this repository",
+ "status":"pass",
+ "evaluation":{"pass":true,"checks_count":11,"night_relative_error":0.04369480784610146,"chiller_relative_error":0.00511302475780409},
+ "report_gate":{"returncode":0,"claims_recomputed":19},
+ "pdf_validation":{"page_count":3,"grade":"A","errors":[],"warnings":[]},
+ "chart_verification":{"points":720,"first":"2026-09-01 00:00:00+08:00","last":"2026-09-30 23:00:00+08:00","onset":"2026-09-15 00:00:00+08:00","values_match_csv_exactly":true,"title":"Hourly load, full month; night onset day 15"},
+ "negative_gate":{"returncode":2,"blocked":true,"clean_pdf_sha256_unchanged":"15d15249d1323c8f8781d9dbd9afb56d8f4837bc1437993f0ef71ed175023b0b","fixture":"<TEMP_DIR>/bad_report.json"},
+ "excluded":"Mail drafts, message bodies, absolute host paths and artifact paths removed. Original PDF is not included."
+}

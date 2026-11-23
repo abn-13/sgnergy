@@ -1,0 +1,21 @@
+{
+  "pass": true,
+  "checks": {
+    "exactly_two_faults_no_weekend_false_positive": true,
+    "EUI_within_2_percent": true,
+    "night_onset_matches_key": true,
+    "night_pre_onset_not_null": true,
+    "chiller_onset_matches_key": true,
+    "crossing_matches_key_exactly": true,
+    "night_waste_energy_within_10_percent": true,
+    "chiller_drift_energy_within_10_percent": true,
+    "chiller_engineer_flag_and_text": true,
+    "night_not_equipment_diagnosis": true,
+    "savings_and_costs_labelled": true
+  },
+  "energy_errors": {
+    "night_waste": {"detected_kwh":30930.0,"truth_kwh":29635.1,"relative_error":0.04369480784610146},
+    "chiller_drift": {"detected_kwh":7394.0,"truth_kwh":7432.0,"relative_error":0.00511302475780409}
+  },
+  "scorer_basis":"eval/score_results.py tolerances adapted for two faults and exact key dates; no key used by detectors"
+}

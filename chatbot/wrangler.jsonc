@@ -1,0 +1,10 @@
+{
+  "name": "sgnergy-ask-chatbot",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-22",
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": { "enabled": false },
+  "durable_objects": { "bindings": [{ "name": "IP_LIMITER", "class_name": "IpLimiter" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["IpLimiter"] }]
+}
